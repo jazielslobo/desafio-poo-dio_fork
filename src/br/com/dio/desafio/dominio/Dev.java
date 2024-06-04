@@ -37,6 +37,9 @@ public class Dev {
                 .sum();*/
     }
 
+    public boolean isInscrito() {
+        return !this.getConteudosInscritos().isEmpty();
+    }
 
     public String getNome() {
         return nome;

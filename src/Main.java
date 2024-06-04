@@ -50,6 +50,12 @@ public class Main {
         devJoao.setNome("Joao");
         devJoao.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
+
+        if (devJoao.isInscrito()) {
+            System.out.println("João está inscrito em cursos");
+        }else {
+            System.out.println("João não está inscrito em cursos");
+        }
         devJoao.progredir();
         devJoao.progredir();
         devJoao.progredir();
@@ -57,6 +63,12 @@ public class Main {
         System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
         System.out.println("Conteúdos Concluidos João:" + devJoao.getConteudosConcluidos());
         System.out.println("XP:" + devJoao.calcularTotalXp());
+
+        if (devJoao.isInscrito()) {
+            System.out.println("João está inscrito em cursos");
+        }else {
+            System.out.println("João não está inscrito em cursos");
+        }
 
     }
 
